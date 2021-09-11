@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">l_out</string>
+    <string name="developed_by_bracecodes"><a href="http://www.bracecodes.com">Developed by Bracecodes</a>  </string>
 </resources>

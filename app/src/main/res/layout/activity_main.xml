@@ -8,29 +8,27 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/gor0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/lin3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
+
 
         <LinearLayout
+            android:id="@+id/gor1"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            >
+            app:layout_constraintBottom_toTopOf="@id/gor2">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="10:42"
                 android:textAlignment="center"
@@ -42,7 +40,7 @@
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:background="@null"
                 android:keepScreenOn="false"
@@ -55,7 +53,7 @@
             <ImageView
                 android:id="@+id/alarms"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@null"
                 android:keepScreenOn="false"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +64,7 @@
             <ImageView
                 android:id="@+id/find"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@null"
                 android:keepScreenOn="false"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -77,7 +75,7 @@
             <ImageView
                 android:id="@+id/bell"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@null"
                 android:keepScreenOn="false"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +86,7 @@
             <ImageView
                 android:id="@+id/wifi"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@null"
                 android:keepScreenOn="false"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -99,7 +97,7 @@
             <ImageView
                 android:id="@+id/network_cell"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@null"
                 android:keepScreenOn="false"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -110,7 +108,7 @@
             <ImageView
                 android:id="@+id/signal_cellular"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@null"
                 android:keepScreenOn="false"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -121,7 +119,7 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="0.5"
                 android:lineSpacingExtra="14sp"
                 android:text="98  %"
@@ -133,7 +131,7 @@
             <ImageView
                 android:id="@+id/battery_cell"
                 android:layout_width="27dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@null"
                 android:keepScreenOn="false"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -143,10 +141,11 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/lin2"
+            android:id="@+id/gor2"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
+            android:layout_height="61dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/gor1">
 
             <ImageButton
                 android:id="@+id/arrow_back"
@@ -163,13 +162,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:paddingTop="20dp"
+
+                android:paddingTop="18dp"
                 android:text="Вкл./выкл. интернет"
                 android:textAlignment="center"
                 android:textColor="#070707"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
             <ImageView
                 android:id="@+id/alarms2"
                 android:layout_width="wrap_content"
@@ -183,45 +182,57 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/alarms" />
-
-
         </LinearLayout>
 
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/lin3"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toTopOf="textView4"
-        app:layout_constraintStart_toStartOf="parent">
         <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"
-            android:background="@drawable/rounded_border"
-            android:shadowColor="#B8BDAB44"
-            android:shadowDy="10.5"
-            android:text="Ул. Братьев Кашириных" />
-        <TextView
-            android:id="@+id/textView4"
-            android:weight="2"
+            android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/rounded_border"
+            android:backgroundTintMode="multiply"
+            android:shadowColor="#CBB996"
+            android:text="Ул. Братьев Кашириных, д.№    "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-            android:text="ffffffffffffffffffff" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+
+            app:srcCompat="@mipmap/killbutint2_round" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:text="Функция деактивирована"
+            android:textAlignment="center"
+            android:textColor="#5A7EBF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отключайте домашний интернет в один клик из любой точки планеты и контролируйте доступ устройств к Сети"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginTop="40dp"
+            android:text="Владелец договора может выдать другим людям"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/gor0"
+            app:layout_constraintEnd_toEndOf="parent" />
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/killbutint2_round"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="232dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

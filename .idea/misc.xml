@@ -18,10 +18,12 @@
         <entry key="app/src/main/res/drawable/signal_cellular.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/timer.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/wifi.xml" value="0.2203125" />
-        <entry key="app/src/main/res/layout/ac2.xml" value="0.17132689374682258" />
+        <entry key="app/src/main/res/layout/ac2.xml" value="0.24" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25949367088607594" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/killbutint2.xml" value="0.2125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/killbutint_round.xml" value="0.2125" />
       </map>
     </option>
   </component>
