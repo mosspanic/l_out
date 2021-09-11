@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="horizontal|vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="10:42"
+                android:textAlignment="center"
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@null"
+                android:keepScreenOn="false"
+                android:scaleType="fitStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/image" />
+
+            <ImageView
+                android:id="@+id/alarms"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/alarms" />
+
+            <ImageView
+                android:id="@+id/find"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/find" />
+
+            <ImageView
+                android:id="@+id/bell"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/bell" />
+
+            <ImageView
+                android:id="@+id/wifi"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/wifi" />
+
+            <ImageView
+                android:id="@+id/network_cell"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/network_cell" />
+
+            <ImageView
+                android:id="@+id/signal_cellular"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/signal_cellular" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:lineSpacingExtra="14sp"
+                android:text="98  %"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/battery_cell"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/battery_full" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/arrow_back"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:keepScreenOn="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/arrow_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="Вкл./выкл. интернет"
+                android:textAlignment="center"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/alarms2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:keepScreenOn="false"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/alarms" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

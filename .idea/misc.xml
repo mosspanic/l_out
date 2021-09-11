@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/alarms.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/battery_full.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/bell.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/find.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/house.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/image.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/image2.xml" value="0.11302083333333333" />
+        <entry key="app/src/main/res/drawable/network_cell.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/signal_cellular.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/timer.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/wifi.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25949367088607594" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
