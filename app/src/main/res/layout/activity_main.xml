@@ -8,18 +8,24 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/lin3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
 
             <TextView
                 android:id="@+id/textView"
@@ -137,6 +143,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lin2"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal">
@@ -176,9 +183,45 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/alarms" />
+
+
         </LinearLayout>
 
 
-
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toTopOf="textView4"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/rounded_border"
+            android:shadowColor="#B8BDAB44"
+            android:shadowDy="10.5"
+            android:text="Ул. Братьев Кашириных" />
+        <TextView
+            android:id="@+id/textView4"
+            android:weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="ffffffffffffffffffff" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/killbutint2_round"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="232dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
