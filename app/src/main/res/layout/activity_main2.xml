@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+        <LinearLayout
+            android:id="@+id/gor0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:id="@+id/gor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@id/gor2">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10:42"
+                    android:textAlignment="center"
+                    android:textColor="#101010"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/image" />
+
+                <ImageView
+                    android:id="@+id/alarms"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/alarms" />
+
+                <ImageView
+                    android:id="@+id/find"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/find" />
+
+                <ImageView
+                    android:id="@+id/bell"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bell" />
+
+                <ImageView
+                    android:id="@+id/wifi"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/wifi" />
+
+                <ImageView
+                    android:id="@+id/network_cell"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/network_cell" />
+
+                <ImageView
+                    android:id="@+id/signal_cellular"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/signal_cellular" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:lineSpacingExtra="14sp"
+                    android:text="98  %"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/battery_cell"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/battery_full" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gor2"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/gor1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+
+                    android:paddingTop="18dp"
+                    android:text="      Евгений Д.Ч."
+                    android:textAlignment="textStart"
+                    android:textColor="#070707"
+                    android:textSize="20sp"
+                    android:paddingVertical="50dp"
+                    android:paddingBottom="0dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/face2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:keepScreenOn="false"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/face_foreground" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_border"
+                android:backgroundTintMode="multiply"
+                android:shadowColor="#CBB996"
+                android:text="Ул. Братьев Кашириных, д.№    "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:text="Функция деактивирована"
+                android:textAlignment="center"
+                android:textColor="#5A7EBF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отключайте домашний интернет в один клик из любой точки планеты и контролируйте доступ устройств к Сети"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

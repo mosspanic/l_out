@@ -198,12 +198,15 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="182dp"
-
-            app:srcCompat="@mipmap/killbutint2_round" />
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="115dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:foreground="@mipmap/killbutint2_round"
+            android:textAlignment="center"
+            app:iconTint="#FFFFFF"
+            app:rippleColor="@color/white" />
 
         <TextView
             android:layout_width="match_parent"
