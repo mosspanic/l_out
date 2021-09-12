@@ -181,7 +181,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:background="@drawable/rounded_border"
+                android:background="@drawable/rectangle_rounded_all"
                 android:backgroundTintMode="multiply"
                 android:shadowColor="#CBB996"
                 android:text="Ул. Братьев Кашириных, д.№    "

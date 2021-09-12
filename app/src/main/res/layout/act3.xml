@@ -25,6 +25,13 @@
             android:layout_height="147dp"
             android:text="TextView"
             android:textSize="34sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:background="@drawable/separator"
+            android:layout_height="1dp" />
+        <View
+            android:layout_width="wrap_content"
+            android:background="@drawable/separator"
+            android:layout_height="3dp" />
     </FrameLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
