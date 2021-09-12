@@ -234,5 +234,11 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/gor0"
             app:layout_constraintEnd_toEndOf="parent" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
