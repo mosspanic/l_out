@@ -205,9 +205,15 @@
 
         <Button
             android:id="@+id/b2"
-            android:layout_width="115dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="150dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:background="@mipmap/killbutint2"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@mipmap/killbutint2"
             android:foreground="@mipmap/killbutint2_round"
             android:textAlignment="center"
             app:iconTint="#FFFFFF"
