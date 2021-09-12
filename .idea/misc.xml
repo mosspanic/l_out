@@ -3,7 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable-v24/killbutint_foreground.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/drawable/alarms.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/battery_full.xml" value="0.2203125" />
@@ -12,20 +11,16 @@
         <entry key="app/src/main/res/drawable/house.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/image.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/image2.xml" value="0.11302083333333333" />
-        <entry key="app/src/main/res/drawable/killbutint_background.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/drawable/network_cell.xml" value="0.2203125" />
-        <entry key="app/src/main/res/drawable/rounded_border.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/drawable/rounded_border.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/signal_cellular.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/timer.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/wifi.xml" value="0.2203125" />
-        <entry key="app/src/main/res/layout/ac2.xml" value="0.24" />
-        <entry key="app/src/main/res/layout/act3.xml" value="0.3333333333333333" />
-        <entry key="app/src/main/res/layout/act4.xml" value="0.17132689374682258" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.44" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21302083333333333" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21302083333333333" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/killbutint2.xml" value="0.2125" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/killbutint_round.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/act3.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/act4.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25949367088607594" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/banner1.xml" value="0.2203125" />
       </map>
     </option>
   </component>

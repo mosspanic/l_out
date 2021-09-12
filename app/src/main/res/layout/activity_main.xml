@@ -169,6 +169,7 @@
                 android:textColor="#070707"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
             <ImageView
                 android:id="@+id/alarms2"
                 android:layout_width="wrap_content"
@@ -187,10 +188,14 @@
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
             android:layout_weight="0"
-            android:background="@drawable/rounded_border"
+            android:background="@drawable/rectangle_rounded_all"
             android:backgroundTintMode="multiply"
+            android:paddingLeft="40dp"
             android:shadowColor="#CBB996"
             android:text="Ул. Братьев Кашириных, д.№    "
             android:textAlignment="center"
@@ -198,12 +203,21 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="182dp"
+        <Button
+            android:id="@+id/b2"
 
-            app:srcCompat="@mipmap/killbutint2_round" />
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:background="@mipmap/killbutint2"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@mipmap/killbutint2"
+            android:foreground="@mipmap/killbutint2_round"
+            android:textAlignment="center"
+            app:iconTint="#FFFFFF"
+            app:rippleColor="@color/white" />
 
         <TextView
             android:layout_width="match_parent"

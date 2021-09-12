@@ -24,38 +24,14 @@
             android:layout_width="194dp"
             android:layout_height="147dp"
             android:text="TextView"
-            android:textSize="34sp"
-            tools:text="ещё текст" />
+            android:textSize="34sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:background="@drawable/separator"
+            android:layout_height="1dp" />
+        <View
+            android:layout_width="wrap_content"
+            android:background="@drawable/separator"
+            android:layout_height="3dp" />
     </FrameLayout>
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        style="@android:style/Widget.Material.ImageButton"
-        android:layout_width="199dp"
-        android:layout_height="156dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="152dp"
-        android:layout_marginBottom="61dp"
-        app:barrierMargin="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/killbutint2" />
-
-    <EditText
-        android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="287dp"
-        android:layout_height="169dp"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        android:paddingStart="40dp"
-        android:text="Дом"
-        android:gravity="top"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="540dp"
-        tools:text="Квартира" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
