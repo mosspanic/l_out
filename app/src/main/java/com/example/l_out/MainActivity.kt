@@ -10,9 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val butn = findViewById<Button>(R.id.b2)
-        val value ="hello world"
-        //Thread.sleep(7000)
+        val butn = findViewById<Button>(R.id.floatingActionButton3)
         butn!!.setOnClickListener(View.OnClickListener {
 
             val data = Intent(this ,MainActivity2::class.java)
@@ -22,3 +20,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+//ic_baseline_power_settings_new_24

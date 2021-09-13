@@ -147,19 +147,32 @@
                 android:orientation="horizontal"
                 app:layout_constraintTop_toBottomOf="@id/gor1">
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="10"
-
-                    android:paddingTop="18dp"
+                    android:layout_weight="1"
+                    android:paddingTop="50dp"
                     android:text="      Евгений Д.Ч."
                     android:textAlignment="textStart"
                     android:textColor="#070707"
                     android:textSize="20sp"
-                    android:paddingVertical="50dp"
                     android:paddingBottom="0dp"
                     android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="         Лицевой счёт: №"
+                        android:textAlignment="textStart"
+                        android:textColor="#A4A4A4"
+                        android:textStyle="bold" />
+                </LinearLayout>
 
                 <ImageView
                     android:id="@+id/face2"
@@ -168,6 +181,7 @@
                     android:layout_weight="1"
                     android:background="@null"
                     android:keepScreenOn="false"
+                    android:paddingLeft="150dp"
                     android:paddingTop="50dp"
                     android:paddingBottom="60dp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -243,15 +257,47 @@
                 android:textColor="#000000"
                 android:textStyle="bold" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_border">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
             <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
+                android:id="@+id/textView91"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_border"
                 android:text=" Улыбка (бесплатно)"
                 android:textColor="#0E0E0E"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Скорость до 100 Мбит/с"
+                android:textColor="#B0B0B0"
+                android:textStyle="bold" />
+            ></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:text=" 0₽/мес"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textStyle="bold" />
+        ></LinearLayout>
 
             <TextView
                 android:id="@+id/textView10"
@@ -262,16 +308,47 @@
                 android:textColor="#090909"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView11"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_border">
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_border"
-                android:text="Кабельное телевидение"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Кабельное телевидение"
+                    android:textColor="#090909"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Более 200 каналов"
+                    android:textColor="#ABABAB"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:text="140₽/мес"
+                android:textAlignment="center"
                 android:textColor="#090909"
                 android:textStyle="bold" />
-
+        </LinearLayout>
         </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
