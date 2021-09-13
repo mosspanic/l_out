@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val butn = findViewById<Button>(R.id.floatingActionButton3)
+        val butn = findViewById<Button>(R.id.floatingActionButton3)//<com.google.android.material.floatingactionbutton.FloatingActionButton
         butn!!.setOnClickListener(View.OnClickListener {
 
             val data = Intent(this ,MainActivity2::class.java)

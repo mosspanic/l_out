@@ -159,6 +159,7 @@
                 app:srcCompat="@drawable/arrow_back" />
 
             <TextView
+                android:id="@+id/tv3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -186,7 +187,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tv4"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginLeft="40dp"
@@ -204,9 +205,8 @@
             android:textStyle="bold" />
 
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        <Button
             android:id="@+id/floatingActionButton3"
-
             android:layout_width="match_parent"
             android:layout_height="88dp"
             android:layout_marginLeft="160dp"
@@ -218,6 +218,7 @@
             app:iconTint="#FFFFFF"
             app:rippleColor="@color/white" />
         <TextView
+            android:id="@+id/tv5"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"
@@ -227,6 +228,7 @@
             android:textSize="24sp" />
 
         <TextView
+            android:id="@+id/tv6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Отключайте домашний интернет в один клик из любой точки планеты и контролируйте доступ устройств к Сети"
@@ -236,6 +238,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tv7"
             android:layout_width="match_parent"
             android:layout_height="82dp"
             android:layout_marginTop="40dp"
